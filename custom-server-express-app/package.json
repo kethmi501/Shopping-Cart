@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node -r esm server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "axios": "^0.26.1",
+    "cross-env": "^7.0.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "firebase": "^9.6.11",
+    "http-proxy-middleware": "^2.0.4",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-toastify": "^8.2.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
+  }
+}
